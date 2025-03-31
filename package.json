@@ -1,0 +1,30 @@
+{
+  "name": "redit-supabase-migration",
+  "version": "1.0.0",
+  "description": "Redit uygulaması için Supabase veritabanı migrasyonu",
+  "main": "supabase-integration.js",
+  "scripts": {
+    "migrate": "node supabase-integration.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chari00001/redit-supabase-migration.git"
+  },
+  "keywords": [
+    "redit",
+    "supabase",
+    "migration",
+    "database"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chari00001/redit-supabase-migration/issues"
+  },
+  "homepage": "https://github.com/chari00001/redit-supabase-migration#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.41.0",
+    "dotenv": "^16.4.1"
+  }
+}
